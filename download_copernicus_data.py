@@ -8,6 +8,13 @@ Author: Md. Zuhaib Kabir
 """
 
 
+# 0. Mount Google Drive
+# Make sure you mount Google Drive in Colab so that the .nc files are downloaded to your specified folder.
+from google.colab import drive 
+drive.mount('/content/drive')
+
+
+
 # 1. INSTALL REQUIREMENTS
 # Run this once in terminal:
 
