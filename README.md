@@ -23,4 +23,6 @@ It supports spatial subsetting, variable selection, and year-by-year data extrac
 Install dependencies before running:
 
 ```bash
-pip install copernicusmarine click==8.1.8
+!pip -q install copernicusmarine
+!pip -q install "click==8.1.7"
+!pip -q install "click==8.1.8"
